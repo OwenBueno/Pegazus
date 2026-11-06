@@ -1,0 +1,22 @@
+{
+  "allowlist": [
+    {
+      "url": "https://openstax.org/details/books/elementary-algebra-2e",
+      "slug": "openstax_elementary_algebra_overview",
+      "title": "OpenStax Elementary Algebra 2e (overview)",
+      "attribution": "OpenStax Elementary Algebra 2e, CC BY 4.0"
+    },
+    {
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/2-introduction",
+      "slug": "openstax_linear_intro",
+      "title": "OpenStax Elementary Algebra — Linear equations intro",
+      "attribution": "OpenStax Elementary Algebra 2e, CC BY 4.0"
+    },
+    {
+      "url": "https://openstax.org/books/elementary-algebra-2e/pages/9-introduction",
+      "slug": "openstax_quadratics_intro",
+      "title": "OpenStax Elementary Algebra — Roots and radicals intro",
+      "attribution": "OpenStax Elementary Algebra 2e, CC BY 4.0"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+1. Also the problems and the components using in the genUI should be chose or created with ai.
+
+2. the steps in math aren't saved as they should improve the workflow of this problem tasks.
+
+3. Implement a workflow of slide or steps and also add in the right the steps in which are we for example content.
+introduction to the course, fun fact, important fact, problem, more learning, problem. Not only problems should be better for learning not only for studing this should keep with us follow the cognitive.
+
+
+In following we should need a better handle of components(create more as needed) and a jev to decide the layout based on the content generate for the user etc.
+
+
+improve the performance and use of llm tokens and input and output.
+
+Help me to create from what is in the project a library of components for the ia to use for the selection and have a better ui/ux for the user, update all the workflow to integrate this new components. if not possible make it possible modify the project remember the workflow should be the ia should select the best components for the lessons.
+
+Help me to implement a new

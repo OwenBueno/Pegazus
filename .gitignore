@@ -1,0 +1,36 @@
+# env
+.env
+.env.local
+.env.*.local
+
+# deps / build
+node_modules/
+frontend/.next/
+frontend/out/
+backend/.venv/
+backend/**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+
+# supabase
+supabase/.branches/
+supabase/.temp/
+
+# tools (local CLI downloads)
+.tools/
+backend/.venv/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# logs
+*.log
+npm-debug.log*
+backend/.smoke_token
+backend/.venv/

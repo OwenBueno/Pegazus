@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pegazus axe fixture</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" aria-label="Pegazus"><svg aria-hidden="true" width="28" height="28"></svg><span>Pegazus</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/path">Path</a>
+        <a href="/ask">Ask</a>
+      </nav>
+      <button type="button" aria-label="Language: Español">ES</button>
+      <a href="/account" aria-label="Settings"><svg aria-hidden="true" width="16" height="16"></svg></a>
+      <button type="button" aria-label="Sign out"><svg aria-hidden="true" width="16" height="16"></svg></button>
+    </header>
+    <main>
+      <h1>Sign in</h1>
+      <form>
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" />
+        </label>
+        <button type="submit">Send code</button>
+      </form>
+      <section aria-label="Practice workspace">
+        <h2>Linear equations</h2>
+        <nav aria-label="Lesson steps">
+          <div role="progressbar" aria-label="Lesson steps" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40"></div>
+          <button type="button">Previous</button>
+          <span aria-live="polite">Step 2 of 5</span>
+        </nav>
+        <label>
+          Your question
+          <div role="textbox" aria-label="Math input" contenteditable="true"></div>
+        </label>
+        <figure>
+          <figcaption>Graph</figcaption>
+          <svg role="img" aria-label="y = 2x + 1: plot" width="320" height="200"></svg>
+        </figure>
+        <aside aria-live="polite">
+          <p>Hint · Tier 1</p>
+          <p>What inverse operation undoes the last change?</p>
+        </aside>
+        <div role="status">Correct</div>
+        <button type="button" aria-haspopup="dialog">Ask the tutor</button>
+        <button type="button" aria-label="Delete: Algebra basics"><svg aria-hidden="true" width="16" height="16"></svg></button>
+      </section>
+      <section tabindex="-1" aria-labelledby="profile-title" class="space-y-4 rounded-control border border-indigo-400/30 bg-neuro-indigo/5 p-4">
+        <h2 id="profile-title">We think this is…</h2>
+        <p>Check the subject and adjust if needed — this shapes lessons and answer types.</p>
+        <label>
+          <span>Subject</span>
+          <input value="Spanish A2 travel vocabulary" maxlength="120" required />
+        </label>
+        <div role="group" aria-labelledby="profile-categories">
+          <p id="profile-categories">Lesson tools</p>
+          <button type="button" aria-pressed="true" disabled>Core</button>
+          <button type="button" aria-pressed="false">Math</button>
+          <button type="button" aria-pressed="true">Language</button>
+        </div>
+        <fieldset>
+          <legend>Notation</legend>
+          <label><input type="radio" name="profile-notation" value="none" class="sr-only" checked />Plain text</label>
+          <label><input type="radio" name="profile-notation" value="math" class="sr-only" />Math</label>
+          <label><input type="radio" name="profile-notation" value="chem" class="sr-only" />Chemistry</label>
+          <label><input type="radio" name="profile-notation" value="code" class="sr-only" />Code</label>
+        </fieldset>
+        <button type="button">Looks right — continue</button>
+      </section>
+      <section aria-label="Path outline">
+        <h2>Photosynthesis basics</h2>
+        <div class="flex flex-col items-center gap-2 rounded-panel border border-dashed border-line-strong px-4 py-5 text-center">
+          <p>This lesson couldn’t be built.</p>
+          <div>We couldn’t write enough practice questions for this skill.</div>
+          <button type="button" aria-label="Retry building Photosynthesis basics"><svg aria-hidden="true" width="16" height="16"></svg>Retry</button>
+        </div>
+        <div class="flex flex-col items-center gap-3 rounded-panel border border-dashed border-line-strong px-6 py-10 text-center">
+          <p>We couldn’t draft your outline.</p>
+          <div><span role="alert">The outline service is busy. Please try again.</span></div>
+          <button type="button"><svg aria-hidden="true" width="16" height="16"></svg>Retry</button>
+        </div>
+      </section>
+      <section aria-label="Core components">
+        <form>
+          <p>Short answer</p>
+          <label for="core-short">What gas do plants absorb?</label>
+          <input id="core-short" maxlength="500" autocomplete="off" />
+          <button type="submit" disabled>Check answer</button>
+        </form>
+        <section>
+          <p>Your explanation</p>
+          <label for="core-free">Explain why the sky is blue.</label>
+          <textarea id="core-free" rows="5" maxlength="1500" aria-describedby="core-free-count"></textarea>
+          <span>Write at least 5 words.</span>
+          <span id="core-free-count" aria-live="polite">0 / 80 words</span>
+          <button type="button" disabled>Check answer</button>
+        </section>
+        <section>
+          <p>Fill in the blanks</p>
+          <p>Water boils at <input aria-label="Blank 1" maxlength="100" /> degrees Celsius at <input aria-label="Blank 2" maxlength="100" /> pressure.</p>
+          <button type="button" disabled>Check answer</button>
+        </section>
+        <section>
+          <p>Worked example</p>
+          <ol>
+            <li>2x + 3 = 11</li>
+            <li>2x = <input aria-label="Step 2, blank 1" maxlength="100" /></li>
+          </ol>
+          <button type="button" disabled>Check answer</button>
+        </section>
+        <section>
+          <p>Put in order</p>
+          <ul>
+            <li>
+              <svg aria-hidden="true" width="16" height="16"></svg><span>1.</span><span>Boil water</span>
+              <button type="button" aria-label="Move Boil water up" disabled><svg aria-hidden="true" width="16" height="16"></svg></button>
+              <button type="button" aria-label="Move Boil water down"><svg aria-hidden="true" width="16" height="16"></svg></button>
+            </li>
+            <li>
+              <svg aria-hidden="true" width="16" height="16"></svg><span>2.</span><span>Add tea</span>
+              <button type="button" aria-label="Move Add tea up"><svg aria-hidden="true" width="16" height="16"></svg></button>
+              <button type="button" aria-label="Move Add tea down" disabled><svg aria-hidden="true" width="16" height="16"></svg></button>
+            </li>
+          </ul>
+          <p aria-live="polite" class="sr-only">Add tea moved to position 2</p>
+          <button type="button">Check order</button>
+        </section>
+        <section>
+          <p>Sort into groups</p>
+          <div role="group" aria-label="Not sorted yet">
+            <button type="button" draggable="true" aria-pressed="true">Oak</button>
+          </div>
+          <div role="group" aria-label="Trees">
+            <button type="button">Put in Trees</button>
+            <button type="button" draggable="true" aria-pressed="false">Pine</button>
+          </div>
+          <button type="button" disabled>Check groups</button>
+        </section>
+        <section>
+          <p>Flashcards</p>
+          <p>Card 1 of 3</p>
+          <div aria-live="polite"><p>Hola</p></div>
+          <button type="button" aria-pressed="true">Flip card</button>
+          <button type="button">Again</button>
+          <button type="button">Got it</button>
+        </section>
+        <div>
+          <table>
+            <thead><tr><th scope="col">x</th><th scope="col">y</th></tr></thead>
+            <tbody><tr><td>1</td><td>3</td></tr></tbody>
+          </table>
+        </div>
+        <section aria-label="Comparison">
+          <div><h3>Mitosis</h3><ul><li>Two cells</li></ul></div>
+          <div><h3>Meiosis</h3><ul><li>Four cells</li></ul></div>
+        </section>
+        <section>
+          <p>Process</p>
+          <ol>
+            <li><span aria-hidden="true">1</span><div><p>Evaporation</p><p>Water turns to vapour.</p></div></li>
+            <li><span aria-hidden="true">2</span><div><p>Condensation</p></div></li>
+          </ol>
+          <p><svg aria-hidden="true" width="16" height="16"></svg>Repeats from step 1</p>
+        </section>
+        <section>
+          <p>Key terms</p>
+          <dl><div><dt>Photon</dt><dd>A particle of light.</dd></div></dl>
+        </section>
+        <figure role="img" aria-label="Flowchart: start leads to end">
+          <div aria-hidden="true"><svg width="120" height="40"></svg></div>
+          <figcaption class="sr-only">Flowchart: start leads to end</figcaption>
+        </figure>
+      </section>
+      <section aria-label="Family components">
+        <section>
+          <p>French Revolution</p>
+          <ol><li><span>1789</span><p>Storming of the Bastille</p></li><li><span>490 BCE</span><p>Battle of Marathon</p></li></ol>
+        </section>
+        <figure>
+          <p>Map · Europe</p>
+          <svg role="img" aria-label="Map of Europe with 1 marked place" width="320" height="200"></svg>
+          <ol aria-label="Marked places"><li><span>1</span><span>Paris</span><span>48.9° N, 2.4° E</span></li></ol>
+        </figure>
+        <figure>
+          <p>Primary source</p>
+          <blockquote><p>Men are born and remain free and equal in rights.</p></blockquote>
+          <figcaption>Declaration of the Rights of Man, 1789 <a href="https://example.org/doc" target="_blank" rel="noopener noreferrer">View source<span class="sr-only">(opens in a new tab)</span></a></figcaption>
+        </figure>
+        <section aria-label="Sources">
+          <h3>Sources</h3>
+          <ul><li><a href="https://example.org/doc" target="_blank" rel="noopener noreferrer nofollow">French Revolution<svg aria-hidden="true" width="12" height="12"></svg><span class="sr-only">(opens in a new tab)</span></a></li></ul>
+        </section>
+        <section>
+          <p>Cause and effect</p>
+          <ul><li><span>Debt crisis</span><span class="sr-only">leads to</span><svg aria-hidden="true" width="16" height="16"></svg><span>Estates-General</span></li></ul>
+        </section>
+        <button type="button" aria-label="Listen: ¿Dónde está la estación?"><svg aria-hidden="true" width="16" height="16"></svg></button>
+        <section>
+          <p>Pronounce</p>
+          <p lang="es">¿Dónde está la estación?</p>
+          <button type="button">Record</button>
+          <p aria-live="polite">We heard: <span lang="es">donde esta la estacion</span></p>
+          <div role="group" aria-label="Rate yourself"><button type="button">Needs practice</button><button type="button">I said it well</button></div>
+        </section>
+        <form>
+          <p>Translate</p>
+          <p lang="es">Buenos días</p>
+          <label for="fam-tr">Your translation</label>
+          <textarea id="fam-tr" rows="3" maxlength="500"></textarea>
+          <button type="submit" disabled>Check answer</button>
+        </form>
+        <figure>
+          <p>Chemical equation</p>
+          <div role="img" aria-label="2H2 + O2 -> 2H2O"></div>
+        </figure>
+        <form>
+          <p>Numeric answer</p>
+          <label for="fam-q">Molar mass of water?</label>
+          <input id="fam-q" type="text" inputmode="decimal" maxlength="40" autocomplete="off" aria-describedby="fam-q-h" />
+          <label for="fam-q-u" class="sr-only">Unit</label>
+          <select id="fam-q-u"><option value="g/mol">g/mol</option></select>
+          <p id="fam-q-h">Enter a number, e.g. 9.81 or 9,81.</p>
+          <button type="submit" disabled>Check answer</button>
+        </form>
+        <figure>
+          <p>Parameter explorer</p>
+          <svg role="img" aria-label="Parabola that widens as a shrinks" aria-describedby="fam-pe-d" width="320" height="200"></svg>
+          <figcaption id="fam-pe-d"><span>Parabola that widens as a shrinks</span><span>Current values: a = 1</span></figcaption>
+          <label for="fam-pe-a"><span>a</span><span aria-hidden="true">1</span></label>
+          <input id="fam-pe-a" type="range" min="0" max="2" step="0.02" value="1" aria-valuetext="a = 1" />
+        </figure>
+        <figure role="img" aria-label="Plant cell">
+          <p>Labeled diagram</p>
+          <div aria-hidden="true"><svg width="120" height="80"></svg></div>
+          <figcaption><span>Labels</span><ol><li>Nucleus</li></ol></figcaption>
+        </figure>
+        <pre role="region" aria-label="Python code" tabindex="0"><code>for i in range(3):
+    print(i)</code></pre>
+        <form>
+          <p>Predict the output</p>
+          <label for="fam-po">What does this print?</label>
+          <textarea id="fam-po" rows="3" maxlength="500"></textarea>
+          <button type="submit" disabled>Check answer</button>
+        </form>
+        <section>
+          <p>Code exercise <span>Beta</span></p>
+          <label for="fam-ce">Your code</label>
+          <p id="fam-ce-h">Tab inserts 4 spaces. Press Esc, then Tab, to leave the editor.</p>
+          <textarea id="fam-ce" rows="6" spellcheck="false" aria-describedby="fam-ce-h">def double(x):
+    return x * 2</textarea>
+          <p aria-live="polite">1 of 1 tests passed</p>
+          <ul><li><span class="sr-only">Passed</span><code>double(2)</code> <span class="sr-only">expected</span><code>4</code></li></ul>
+          <button type="button">Run tests</button>
+          <button type="button">Submit</button>
+        </section>
+      </section>
+    </main>
+    <nav aria-label="Main navigation (mobile)">
+      <a href="/" aria-current="page">Home</a>
+      <a href="/path">Path</a>
+    </nav>
+  </body>
+</html>

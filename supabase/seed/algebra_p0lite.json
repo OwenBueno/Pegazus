@@ -1,0 +1,2220 @@
+{
+  "nodes": [
+    {
+      "id": "11111111-1111-1111-1111-111111111101",
+      "slug": "math.algebra.one-step-equations",
+      "title": "One-step linear equations",
+      "description": "Solve equations of the form x + a = b or ax = b using a single inverse operation.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "x + a = b",
+      "primer_md": "## One-step equations\n\nAn equation says two expressions are equal. To solve `x + a = b` or `ax = b`, undo the single operation with its inverse on **both** sides so the equation stays balanced.\n\n**When to use:** isolate `x` in one move. **Outline:** identify the operation → apply inverse → check by substitution."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111102",
+      "slug": "math.algebra.two-step-equations",
+      "title": "Two-step linear equations",
+      "description": "Solve ax + b = c with two inverse operations in a deliberate order.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "ax + b = c",
+      "primer_md": "## Two-step equations\n\nForms like `ax + b = c` need a deliberate order: undo addition/subtraction first, then undo multiplication/division.\n\n**Why order matters:** clearing the constant first leaves a one-step multiply/divide."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111103",
+      "slug": "math.algebra.variables-both-sides",
+      "title": "Variables on both sides",
+      "description": "Collect like terms when the unknown appears on both sides of a linear equation.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "ax + b = cx + d",
+      "primer_md": "## Variables on both sides\n\nWhen `x` appears on both sides, collect variable terms on one side and constants on the other, then finish as a one- or two-step equation.\n\n**Outline:** subtract (or add) a variable term → simplify → isolate `x`."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111104",
+      "slug": "math.algebra.linear-inequalities",
+      "title": "Linear inequalities",
+      "description": "Solve and express simple linear inequalities; flip the inequality when multiplying by a negative.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "ax + b < c",
+      "primer_md": "## Linear inequalities\n\nInequalities use `<`, `>`, `≤`, `≥`. Solving steps mirror equations, **except** multiplying or dividing by a negative flips the inequality.\n\n**Check:** pick a test value from your solution set."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111105",
+      "slug": "math.algebra.simple-quadratics",
+      "title": "Simple quadratics",
+      "description": "Solve x^2 = k and (x - h)^2 = k by square roots.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "x^{2} = k",
+      "primer_md": "## Simple quadratics\n\nEquations like `x² = k` or `(x − h)² = k` are solved with square roots. Remember both positive and negative roots when they exist.\n\n**Outline:** isolate the square → take ± square root → solve for `x`."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111106",
+      "slug": "math.algebra.combining-like-terms",
+      "title": "Combining like terms",
+      "description": "Add and subtract like terms to simplify algebraic expressions.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "ax + bx = (a+b)x",
+      "primer_md": "## Combining like terms\n\nLike terms share the same variable power. Combine coefficients only; unlike terms stay separate.\n\n**Outline:** group like terms → add/subtract coefficients → rewrite cleanly."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111107",
+      "slug": "math.algebra.distributing",
+      "title": "Distributive property",
+      "description": "Expand a(b+c) and simplify resulting expressions.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "a(b+c)=ab+ac",
+      "primer_md": "## Distributive property\n\n`a(b + c) = ab + ac`. Expand carefully with signs, then combine like terms if needed.\n\n**Outline:** multiply each term inside → watch negatives → simplify."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111108",
+      "slug": "math.algebra.clearing-fractions",
+      "title": "Clearing fractions in equations",
+      "description": "Multiply through by an LCD to clear denominators before solving.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "\\frac{x}{a}+\\frac{x}{b}=c",
+      "primer_md": "## Clearing fractions\n\nMultiply every term by a common denominator to clear fractions, then solve the resulting integer equation.\n\n**Outline:** find LCD → multiply through → solve as usual."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111109",
+      "slug": "math.algebra.compound-inequalities",
+      "title": "Compound inequalities",
+      "description": "Solve chained inequalities a < x < b with consistent operations.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "a < x < b",
+      "primer_md": "## Compound inequalities\n\nForms like `a < x < b` are two inequalities at once. Apply the same operation to all three parts.\n\n**Outline:** treat as a chain → isolate `x` in the middle → graph if useful."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111110",
+      "slug": "math.algebra.absolute-value-eq",
+      "title": "Absolute value equations",
+      "description": "Solve |A| = k by splitting into two linear cases.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "|x| = k",
+      "primer_md": "## Absolute value equations\n\n`|A| = k` (k ≥ 0) splits into `A = k` or `A = −k`. Solve each case and check extraneous results.\n\n**Outline:** isolate absolute value → split cases → solve → verify."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "slug": "math.algebra.difference-of-squares",
+      "title": "Difference of squares",
+      "description": "Factor a^2 - b^2 and solve related equations.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "a^{2}-b^{2}=(a-b)(a+b)",
+      "primer_md": "## Difference of squares\n\n`a² − b² = (a − b)(a + b)`. Factor first when solving equations set to zero.\n\n**Outline:** recognize pattern → factor → zero-product property."
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111112",
+      "slug": "math.algebra.graphing-linear",
+      "title": "Graphing linear equations",
+      "description": "Interpret and plot y = mx + b on the coordinate plane.",
+      "node_type": "SKILL",
+      "domain": "MATHEMATICS",
+      "canonical_equation_latex": "y = mx + b",
+      "primer_md": "## Graphing linear forms\n\n`y = mx + b` is a line: slope `m`, intercept `b`. Plotting helps check solutions of related equations.\n\n**Outline:** identify slope/intercept → plot two points → connect."
+    }
+  ],
+  "edges": [
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111101",
+      "child_id": "11111111-1111-1111-1111-111111111102",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111102",
+      "child_id": "11111111-1111-1111-1111-111111111103",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111102",
+      "child_id": "11111111-1111-1111-1111-111111111104",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111103",
+      "child_id": "11111111-1111-1111-1111-111111111105",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111101",
+      "child_id": "11111111-1111-1111-1111-111111111106",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111106",
+      "child_id": "11111111-1111-1111-1111-111111111107",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111107",
+      "child_id": "11111111-1111-1111-1111-111111111102",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111102",
+      "child_id": "11111111-1111-1111-1111-111111111108",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111104",
+      "child_id": "11111111-1111-1111-1111-111111111109",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111103",
+      "child_id": "11111111-1111-1111-1111-111111111110",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111105",
+      "child_id": "11111111-1111-1111-1111-111111111111",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    },
+    {
+      "parent_id": "11111111-1111-1111-1111-111111111102",
+      "child_id": "11111111-1111-1111-1111-111111111112",
+      "edge_type": "PREREQUISITE_OF",
+      "weight": 1.0
+    }
+  ],
+  "items": [
+    {
+      "id": "22222222-2222-2222-2222-222222222201",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "x + 5 = 12",
+      "difficulty_estimate": 0.2,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x + 5 = 12",
+          "sympy": "Eq(x + 5, 12)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 7",
+          "sympy": "Eq(x, 7)",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222202",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "3x = 15",
+      "difficulty_estimate": 0.25,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3x = 15",
+          "sympy": "Eq(3*x, 15)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 5",
+          "sympy": "Eq(x, 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222203",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "x - 4 = 9",
+      "difficulty_estimate": 0.2,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x - 4 = 9",
+          "sympy": "Eq(x - 4, 9)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 13",
+          "sympy": "Eq(x, 13)",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222204",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "x + 8 = 20",
+      "difficulty_estimate": 0.2,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x + 8 = 20",
+          "sympy": "Eq(x + 8, 20)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 12",
+          "sympy": "Eq(x, 12)",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222205",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "4x = 28",
+      "difficulty_estimate": 0.25,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "4x = 28",
+          "sympy": "Eq(4*x, 28)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 7",
+          "sympy": "Eq(x, 7)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222211",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "2x + 3 = 11",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2x + 3 = 11",
+          "sympy": "Eq(2*x + 3, 11)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x = 8",
+          "sympy": "Eq(2*x, 8)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222212",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "5x - 7 = 18",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "5x - 7 = 18",
+          "sympy": "Eq(5*x - 7, 18)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "5x = 25",
+          "sympy": "Eq(5*x, 25)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 5",
+          "sympy": "Eq(x, 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222213",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "\\frac{x}{2} + 1 = 6",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "\\frac{x}{2} + 1 = 6",
+          "sympy": "Eq(x/2 + 1, 6)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "\\frac{x}{2} = 5",
+          "sympy": "Eq(x/2, 5)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 10",
+          "sympy": "Eq(x, 10)",
+          "operation": "MULTIPLY_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222214",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "3x + 4 = 19",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3x + 4 = 19",
+          "sympy": "Eq(3*x + 4, 19)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "3x = 15",
+          "sympy": "Eq(3*x, 15)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 5",
+          "sympy": "Eq(x, 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222215",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "4x - 2 = 14",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "4x - 2 = 14",
+          "sympy": "Eq(4*x - 2, 14)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "4x = 16",
+          "sympy": "Eq(4*x, 16)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222221",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "3x + 2 = x + 10",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3x + 2 = x + 10",
+          "sympy": "Eq(3*x + 2, x + 10)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x + 2 = 10",
+          "sympy": "Eq(2*x + 2, 10)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "2x = 8",
+          "sympy": "Eq(2*x, 8)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "4x - 1 = 2x + 7",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "4x - 1 = 2x + 7",
+          "sympy": "Eq(4*x - 1, 2*x + 7)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x - 1 = 7",
+          "sympy": "Eq(2*x - 1, 7)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "2x = 8",
+          "sympy": "Eq(2*x, 8)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222223",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "5x = 2x + 9",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "5x = 2x + 9",
+          "sympy": "Eq(5*x, 2*x + 9)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "3x = 9",
+          "sympy": "Eq(3*x, 9)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "x = 3",
+          "sympy": "Eq(x, 3)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222224",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "6x + 1 = 3x + 10",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "6x + 1 = 3x + 10",
+          "sympy": "Eq(6*x + 1, 3*x + 10)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "3x + 1 = 10",
+          "sympy": "Eq(3*x + 1, 10)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "3x = 9",
+          "sympy": "Eq(3*x, 9)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 3",
+          "sympy": "Eq(x, 3)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222225",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "7x - 4 = 3x + 8",
+      "difficulty_estimate": 0.55,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "7x - 4 = 3x + 8",
+          "sympy": "Eq(7*x - 4, 3*x + 8)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "4x - 4 = 8",
+          "sympy": "Eq(4*x - 4, 8)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "4x = 12",
+          "sympy": "Eq(4*x, 12)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 3",
+          "sympy": "Eq(x, 3)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222231",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "2x + 1 < 9",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2x + 1 < 9",
+          "sympy": "2*x + 1 < 9",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x < 8",
+          "sympy": "2*x < 8",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x < 4",
+          "sympy": "x < 4",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222232",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "-3x > 6",
+      "difficulty_estimate": 0.55,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "-3x > 6",
+          "sympy": "-3*x > 6",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x < -2",
+          "sympy": "x < -2",
+          "operation": "DIVIDE_NEGATIVE"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222233",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "x - 5 \\geq 0",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x - 5 \\geq 0",
+          "sympy": "x - 5 >= 0",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x \\geq 5",
+          "sympy": "x >= 5",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222234",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "3x - 2 \\leq 10",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3x - 2 \\leq 10",
+          "sympy": "3*x - 2 <= 10",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "3x \\leq 12",
+          "sympy": "3*x <= 12",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x \\leq 4",
+          "sympy": "x <= 4",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222235",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "-2x < 8",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "-2x < 8",
+          "sympy": "-2*x < 8",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x > -4",
+          "sympy": "x > -4",
+          "operation": "DIVIDE_NEGATIVE"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222241",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "x^{2} = 49",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} = 49",
+          "sympy": "Eq(x**2, 49)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = \\pm 7",
+          "sympy": "Or(Eq(x, 7), Eq(x, -7))",
+          "operation": "SQUARE_ROOT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222242",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "(x - 2)^{2} = 9",
+      "difficulty_estimate": 0.6,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "(x - 2)^{2} = 9",
+          "sympy": "Eq((x - 2)**2, 9)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x - 2 = \\pm 3",
+          "sympy": "Or(Eq(x - 2, 3), Eq(x - 2, -3))",
+          "operation": "SQUARE_ROOT"
+        },
+        {
+          "latex": "x = 5 \\text{ or } x = -1",
+          "sympy": "Or(Eq(x, 5), Eq(x, -1))",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222243",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "x^{2} - 16 = 0",
+      "difficulty_estimate": 0.55,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 16 = 0",
+          "sympy": "Eq(x**2 - 16, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x^{2} = 16",
+          "sympy": "Eq(x**2, 16)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = \\pm 4",
+          "sympy": "Or(Eq(x, 4), Eq(x, -4))",
+          "operation": "SQUARE_ROOT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222244",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "x^{2} = 25",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} = 25",
+          "sympy": "Eq(x**2, 25)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = \\pm 5",
+          "sympy": "Or(Eq(x, 5), Eq(x, -5))",
+          "operation": "SQUARE_ROOT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222245",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "(x + 1)^{2} = 4",
+      "difficulty_estimate": 0.6,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "(x + 1)^{2} = 4",
+          "sympy": "Eq((x + 1)**2, 4)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x + 1 = \\pm 2",
+          "sympy": "Or(Eq(x + 1, 2), Eq(x + 1, -2))",
+          "operation": "SQUARE_ROOT"
+        },
+        {
+          "latex": "x = 1 \\text{ or } x = -3",
+          "sympy": "Or(Eq(x, 1), Eq(x, -3))",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222206",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "x + 9 = 15",
+      "difficulty_estimate": 0.2,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x + 9 = 15",
+          "sympy": "Eq(x + 9, 15)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 6",
+          "sympy": "Eq(x, 6)",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222207",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "6x = 42",
+      "difficulty_estimate": 0.25,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "6x = 42",
+          "sympy": "Eq(6*x, 42)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 7",
+          "sympy": "Eq(x, 7)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222208",
+      "node_id": "11111111-1111-1111-1111-111111111101",
+      "statement_latex": "x - 11 = 4",
+      "difficulty_estimate": 0.2,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x - 11 = 4",
+          "sympy": "Eq(x - 11, 4)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 15",
+          "sympy": "Eq(x, 15)",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222216",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "2x + 5 = 17",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2x + 5 = 17",
+          "sympy": "Eq(2*x + 5, 17)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x = 12",
+          "sympy": "Eq(2*x, 12)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 6",
+          "sympy": "Eq(x, 6)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222217",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "3x - 4 = 11",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3x - 4 = 11",
+          "sympy": "Eq(3*x - 4, 11)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "3x = 15",
+          "sympy": "Eq(3*x, 15)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 5",
+          "sympy": "Eq(x, 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222218",
+      "node_id": "11111111-1111-1111-1111-111111111102",
+      "statement_latex": "\\frac{x}{3} - 2 = 1",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "\\frac{x}{3} - 2 = 1",
+          "sympy": "Eq(x/3 - 2, 1)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "\\frac{x}{3} = 3",
+          "sympy": "Eq(x/3, 3)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 9",
+          "sympy": "Eq(x, 9)",
+          "operation": "MULTIPLY_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222226",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "2x + 5 = x + 9",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2x + 5 = x + 9",
+          "sympy": "Eq(2*x + 5, x + 9)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x + 5 = 9",
+          "sympy": "Eq(x + 5, 9)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222227",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "8x - 3 = 5x + 9",
+      "difficulty_estimate": 0.55,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "8x - 3 = 5x + 9",
+          "sympy": "Eq(8*x - 3, 5*x + 9)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "3x - 3 = 9",
+          "sympy": "Eq(3*x - 3, 9)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "3x = 12",
+          "sympy": "Eq(3*x, 12)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222228",
+      "node_id": "11111111-1111-1111-1111-111111111103",
+      "statement_latex": "9x = 4x + 20",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "9x = 4x + 20",
+          "sympy": "Eq(9*x, 4*x + 20)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "5x = 20",
+          "sympy": "Eq(5*x, 20)",
+          "operation": "SUBTRACT_VARIABLE_TERM"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222236",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "4x + 3 > 11",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "4x + 3 > 11",
+          "sympy": "4*x + 3 > 11",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "4x > 8",
+          "sympy": "4*x > 8",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x > 2",
+          "sympy": "x > 2",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222237",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "-4x \\leq 12",
+      "difficulty_estimate": 0.55,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "-4x \\leq 12",
+          "sympy": "-4*x <= 12",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x \\geq -3",
+          "sympy": "x >= -3",
+          "operation": "DIVIDE_NEGATIVE"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222238",
+      "node_id": "11111111-1111-1111-1111-111111111104",
+      "statement_latex": "x + 2 < 10",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x + 2 < 10",
+          "sympy": "x + 2 < 10",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x < 8",
+          "sympy": "x < 8",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222246",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "x^{2} = 36",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} = 36",
+          "sympy": "Eq(x**2, 36)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = \\pm 6",
+          "sympy": "Or(Eq(x, 6), Eq(x, -6))",
+          "operation": "SQUARE_ROOT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222247",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "(x - 1)^{2} = 16",
+      "difficulty_estimate": 0.6,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "(x - 1)^{2} = 16",
+          "sympy": "Eq((x - 1)**2, 16)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x - 1 = \\pm 4",
+          "sympy": "Or(Eq(x - 1, 4), Eq(x - 1, -4))",
+          "operation": "SQUARE_ROOT"
+        },
+        {
+          "latex": "x = 5 \\text{ or } x = -3",
+          "sympy": "Or(Eq(x, 5), Eq(x, -3))",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222248",
+      "node_id": "11111111-1111-1111-1111-111111111105",
+      "statement_latex": "x^{2} - 9 = 0",
+      "difficulty_estimate": 0.55,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 9 = 0",
+          "sympy": "Eq(x**2 - 9, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x^{2} = 9",
+          "sympy": "Eq(x**2, 9)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = \\pm 3",
+          "sympy": "Or(Eq(x, 3), Eq(x, -3))",
+          "operation": "SQUARE_ROOT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222251",
+      "node_id": "11111111-1111-1111-1111-111111111106",
+      "statement_latex": "2x + 3x = 20",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2x + 3x = 20",
+          "sympy": "Eq(2*x + 3*x, 20)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "5x = 20",
+          "sympy": "Eq(5*x, 20)",
+          "operation": "COMBINE"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222252",
+      "node_id": "11111111-1111-1111-1111-111111111106",
+      "statement_latex": "7x - 2x = 15",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "7x - 2x = 15",
+          "sympy": "Eq(7*x - 2*x, 15)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "5x = 15",
+          "sympy": "Eq(5*x, 15)",
+          "operation": "COMBINE"
+        },
+        {
+          "latex": "x = 3",
+          "sympy": "Eq(x, 3)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222253",
+      "node_id": "11111111-1111-1111-1111-111111111106",
+      "statement_latex": "4x + x = 25",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "4x + x = 25",
+          "sympy": "Eq(4*x + x, 25)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "5x = 25",
+          "sympy": "Eq(5*x, 25)",
+          "operation": "COMBINE"
+        },
+        {
+          "latex": "x = 5",
+          "sympy": "Eq(x, 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222254",
+      "node_id": "11111111-1111-1111-1111-111111111106",
+      "statement_latex": "9x - 4x = 30",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "9x - 4x = 30",
+          "sympy": "Eq(9*x - 4*x, 30)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "5x = 30",
+          "sympy": "Eq(5*x, 30)",
+          "operation": "COMBINE"
+        },
+        {
+          "latex": "x = 6",
+          "sympy": "Eq(x, 6)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222255",
+      "node_id": "11111111-1111-1111-1111-111111111106",
+      "statement_latex": "3x + 5x = 24",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3x + 5x = 24",
+          "sympy": "Eq(3*x + 5*x, 24)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "8x = 24",
+          "sympy": "Eq(8*x, 24)",
+          "operation": "COMBINE"
+        },
+        {
+          "latex": "x = 3",
+          "sympy": "Eq(x, 3)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222261",
+      "node_id": "11111111-1111-1111-1111-111111111107",
+      "statement_latex": "2(x + 3) = 14",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2(x + 3) = 14",
+          "sympy": "Eq(2*(x + 3), 14)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x + 6 = 14",
+          "sympy": "Eq(2*x + 6, 14)",
+          "operation": "DISTRIBUTE"
+        },
+        {
+          "latex": "2x = 8",
+          "sympy": "Eq(2*x, 8)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222262",
+      "node_id": "11111111-1111-1111-1111-111111111107",
+      "statement_latex": "3(x - 2) = 9",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3(x - 2) = 9",
+          "sympy": "Eq(3*(x - 2), 9)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "3x - 6 = 9",
+          "sympy": "Eq(3*x - 6, 9)",
+          "operation": "DISTRIBUTE"
+        },
+        {
+          "latex": "3x = 15",
+          "sympy": "Eq(3*x, 15)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 5",
+          "sympy": "Eq(x, 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222263",
+      "node_id": "11111111-1111-1111-1111-111111111107",
+      "statement_latex": "4(x + 1) = 20",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "4(x + 1) = 20",
+          "sympy": "Eq(4*(x + 1), 20)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "4x + 4 = 20",
+          "sympy": "Eq(4*x + 4, 20)",
+          "operation": "DISTRIBUTE"
+        },
+        {
+          "latex": "4x = 16",
+          "sympy": "Eq(4*x, 16)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222264",
+      "node_id": "11111111-1111-1111-1111-111111111107",
+      "statement_latex": "5(x - 1) = 15",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "5(x - 1) = 15",
+          "sympy": "Eq(5*(x - 1), 15)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "5x - 5 = 15",
+          "sympy": "Eq(5*x - 5, 15)",
+          "operation": "DISTRIBUTE"
+        },
+        {
+          "latex": "5x = 20",
+          "sympy": "Eq(5*x, 20)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 4",
+          "sympy": "Eq(x, 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222265",
+      "node_id": "11111111-1111-1111-1111-111111111107",
+      "statement_latex": "2(x + 4) = 18",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2(x + 4) = 18",
+          "sympy": "Eq(2*(x + 4), 18)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x + 8 = 18",
+          "sympy": "Eq(2*x + 8, 18)",
+          "operation": "DISTRIBUTE"
+        },
+        {
+          "latex": "2x = 10",
+          "sympy": "Eq(2*x, 10)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 5",
+          "sympy": "Eq(x, 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222271",
+      "node_id": "11111111-1111-1111-1111-111111111108",
+      "statement_latex": "\\frac{x}{2} + \\frac{x}{4} = 6",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "\\frac{x}{2} + \\frac{x}{4} = 6",
+          "sympy": "Eq(x/2 + x/4, 6)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x + x = 24",
+          "sympy": "Eq(2*x + x, 24)",
+          "operation": "CLEAR_FRACTIONS"
+        },
+        {
+          "latex": "3x = 24",
+          "sympy": "Eq(3*x, 24)",
+          "operation": "COMBINE"
+        },
+        {
+          "latex": "x = 8",
+          "sympy": "Eq(x, 8)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222272",
+      "node_id": "11111111-1111-1111-1111-111111111108",
+      "statement_latex": "\\frac{x}{3} + 1 = 5",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "\\frac{x}{3} + 1 = 5",
+          "sympy": "Eq(x/3 + 1, 5)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "\\frac{x}{3} = 4",
+          "sympy": "Eq(x/3, 4)",
+          "operation": "SUBTRACT_CONSTANT"
+        },
+        {
+          "latex": "x = 12",
+          "sympy": "Eq(x, 12)",
+          "operation": "MULTIPLY_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222273",
+      "node_id": "11111111-1111-1111-1111-111111111108",
+      "statement_latex": "\\frac{x}{5} - 2 = 1",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "\\frac{x}{5} - 2 = 1",
+          "sympy": "Eq(x/5 - 2, 1)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "\\frac{x}{5} = 3",
+          "sympy": "Eq(x/5, 3)",
+          "operation": "ADD_CONSTANT"
+        },
+        {
+          "latex": "x = 15",
+          "sympy": "Eq(x, 15)",
+          "operation": "MULTIPLY_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222274",
+      "node_id": "11111111-1111-1111-1111-111111111108",
+      "statement_latex": "\\frac{2x}{3} = 8",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "\\frac{2x}{3} = 8",
+          "sympy": "Eq(2*x/3, 8)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x = 24",
+          "sympy": "Eq(2*x, 24)",
+          "operation": "MULTIPLY_CONSTANT"
+        },
+        {
+          "latex": "x = 12",
+          "sympy": "Eq(x, 12)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222275",
+      "node_id": "11111111-1111-1111-1111-111111111108",
+      "statement_latex": "\\frac{x}{4} + \\frac{x}{2} = 9",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "\\frac{x}{4} + \\frac{x}{2} = 9",
+          "sympy": "Eq(x/4 + x/2, 9)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x + 2x = 36",
+          "sympy": "Eq(x + 2*x, 36)",
+          "operation": "CLEAR_FRACTIONS"
+        },
+        {
+          "latex": "3x = 36",
+          "sympy": "Eq(3*x, 36)",
+          "operation": "COMBINE"
+        },
+        {
+          "latex": "x = 12",
+          "sympy": "Eq(x, 12)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222281",
+      "node_id": "11111111-1111-1111-1111-111111111109",
+      "statement_latex": "1 < x + 2 < 7",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "1 < x + 2 < 7",
+          "sympy": "(1 < x + 2) & (x + 2 < 7)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "-1 < x < 5",
+          "sympy": "(-1 < x) & (x < 5)",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222282",
+      "node_id": "11111111-1111-1111-1111-111111111109",
+      "statement_latex": "0 \\leq 2x \\leq 10",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "0 \\leq 2x \\leq 10",
+          "sympy": "(0 <= 2*x) & (2*x <= 10)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "0 \\leq x \\leq 5",
+          "sympy": "(0 <= x) & (x <= 5)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222283",
+      "node_id": "11111111-1111-1111-1111-111111111109",
+      "statement_latex": "3 < x - 1 < 8",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "3 < x - 1 < 8",
+          "sympy": "(3 < x - 1) & (x - 1 < 8)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "4 < x < 9",
+          "sympy": "(4 < x) & (x < 9)",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222284",
+      "node_id": "11111111-1111-1111-1111-111111111109",
+      "statement_latex": "-2 \\leq x + 3 \\leq 4",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "-2 \\leq x + 3 \\leq 4",
+          "sympy": "(-2 <= x + 3) & (x + 3 <= 4)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "-5 \\leq x \\leq 1",
+          "sympy": "(-5 <= x) & (x <= 1)",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222285",
+      "node_id": "11111111-1111-1111-1111-111111111109",
+      "statement_latex": "2 < 3x < 12",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "2 < 3x < 12",
+          "sympy": "(2 < 3*x) & (3*x < 12)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "\\frac{2}{3} < x < 4",
+          "sympy": "(Rational(2,3) < x) & (x < 4)",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222291",
+      "node_id": "11111111-1111-1111-1111-111111111110",
+      "statement_latex": "|x| = 5",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "|x| = 5",
+          "sympy": "Eq(Abs(x), 5)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = \\pm 5",
+          "sympy": "Or(Eq(x, 5), Eq(x, -5))",
+          "operation": "SPLIT_ABS"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222292",
+      "node_id": "11111111-1111-1111-1111-111111111110",
+      "statement_latex": "|x - 2| = 3",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "|x - 2| = 3",
+          "sympy": "Eq(Abs(x - 2), 3)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x - 2 = \\pm 3",
+          "sympy": "Or(Eq(x - 2, 3), Eq(x - 2, -3))",
+          "operation": "SPLIT_ABS"
+        },
+        {
+          "latex": "x = 5 \\text{ or } x = -1",
+          "sympy": "Or(Eq(x, 5), Eq(x, -1))",
+          "operation": "ADD_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222293",
+      "node_id": "11111111-1111-1111-1111-111111111110",
+      "statement_latex": "|x + 1| = 4",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "|x + 1| = 4",
+          "sympy": "Eq(Abs(x + 1), 4)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x + 1 = \\pm 4",
+          "sympy": "Or(Eq(x + 1, 4), Eq(x + 1, -4))",
+          "operation": "SPLIT_ABS"
+        },
+        {
+          "latex": "x = 3 \\text{ or } x = -5",
+          "sympy": "Or(Eq(x, 3), Eq(x, -5))",
+          "operation": "SUBTRACT_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222294",
+      "node_id": "11111111-1111-1111-1111-111111111110",
+      "statement_latex": "|x| = 0",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "|x| = 0",
+          "sympy": "Eq(Abs(x), 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "x = 0",
+          "sympy": "Eq(x, 0)",
+          "operation": "SPLIT_ABS"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222295",
+      "node_id": "11111111-1111-1111-1111-111111111110",
+      "statement_latex": "|2x| = 8",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "|2x| = 8",
+          "sympy": "Eq(Abs(2*x), 8)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "2x = \\pm 8",
+          "sympy": "Or(Eq(2*x, 8), Eq(2*x, -8))",
+          "operation": "SPLIT_ABS"
+        },
+        {
+          "latex": "x = \\pm 4",
+          "sympy": "Or(Eq(x, 4), Eq(x, -4))",
+          "operation": "DIVIDE_CONSTANT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222a1",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 25 = 0",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 25 = 0",
+          "sympy": "Eq(x**2 - 25, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 5)(x + 5) = 0",
+          "sympy": "Eq((x - 5)*(x + 5), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 5",
+          "sympy": "Or(Eq(x, 5), Eq(x, -5))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222a2",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 49 = 0",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 49 = 0",
+          "sympy": "Eq(x**2 - 49, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 7)(x + 7) = 0",
+          "sympy": "Eq((x - 7)*(x + 7), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 7",
+          "sympy": "Or(Eq(x, 7), Eq(x, -7))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222a3",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 4 = 0",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 4 = 0",
+          "sympy": "Eq(x**2 - 4, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 2)(x + 2) = 0",
+          "sympy": "Eq((x - 2)*(x + 2), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 2",
+          "sympy": "Or(Eq(x, 2), Eq(x, -2))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222a4",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 81 = 0",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 81 = 0",
+          "sympy": "Eq(x**2 - 81, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 9)(x + 9) = 0",
+          "sympy": "Eq((x - 9)*(x + 9), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 9",
+          "sympy": "Or(Eq(x, 9), Eq(x, -9))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222a5",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 1 = 0",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 1 = 0",
+          "sympy": "Eq(x**2 - 1, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 1)(x + 1) = 0",
+          "sympy": "Eq((x - 1)*(x + 1), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 1",
+          "sympy": "Or(Eq(x, 1), Eq(x, -1))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222b1",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = 2x + 1",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = 2x + 1",
+          "sympy": "Eq(y, 2*x + 1)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = 2x + 1",
+          "sympy": "Eq(y, 2*x + 1)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222b2",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = -x + 4",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = -x + 4",
+          "sympy": "Eq(y, -x + 4)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = -x + 4",
+          "sympy": "Eq(y, -x + 4)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222b3",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = 3x - 2",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = 3x - 2",
+          "sympy": "Eq(y, 3*x - 2)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = 3x - 2",
+          "sympy": "Eq(y, 3*x - 2)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222b4",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = \\frac{1}{2}x + 3",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = \\frac{1}{2}x + 3",
+          "sympy": "Eq(y, x/2 + 3)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = \\frac{1}{2}x + 3",
+          "sympy": "Eq(y, x/2 + 3)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222b5",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = -2x",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = -2x",
+          "sympy": "Eq(y, -2*x)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = -2x",
+          "sympy": "Eq(y, -2*x)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222c1",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 25 = 0",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 25 = 0",
+          "sympy": "Eq(x**2 - 25, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 5)(x + 5) = 0",
+          "sympy": "Eq((x - 5)*(x + 5), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 5",
+          "sympy": "Or(Eq(x, 5), Eq(x, -5))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222c2",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 49 = 0",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 49 = 0",
+          "sympy": "Eq(x**2 - 49, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 7)(x + 7) = 0",
+          "sympy": "Eq((x - 7)*(x + 7), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 7",
+          "sympy": "Or(Eq(x, 7), Eq(x, -7))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222c3",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 4 = 0",
+      "difficulty_estimate": 0.45,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 4 = 0",
+          "sympy": "Eq(x**2 - 4, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 2)(x + 2) = 0",
+          "sympy": "Eq((x - 2)*(x + 2), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 2",
+          "sympy": "Or(Eq(x, 2), Eq(x, -2))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222c4",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 81 = 0",
+      "difficulty_estimate": 0.5,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 81 = 0",
+          "sympy": "Eq(x**2 - 81, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 9)(x + 9) = 0",
+          "sympy": "Eq((x - 9)*(x + 9), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 9",
+          "sympy": "Or(Eq(x, 9), Eq(x, -9))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222c5",
+      "node_id": "11111111-1111-1111-1111-111111111111",
+      "statement_latex": "x^{2} - 1 = 0",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "x^{2} - 1 = 0",
+          "sympy": "Eq(x**2 - 1, 0)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "(x - 1)(x + 1) = 0",
+          "sympy": "Eq((x - 1)*(x + 1), 0)",
+          "operation": "FACTOR"
+        },
+        {
+          "latex": "x = \\pm 1",
+          "sympy": "Or(Eq(x, 1), Eq(x, -1))",
+          "operation": "ZERO_PRODUCT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222d1",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = 2x + 1",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = 2x + 1",
+          "sympy": "Eq(y, 2*x + 1)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = 2x + 1",
+          "sympy": "Eq(y, 2*x + 1)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222d2",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = -x + 4",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = -x + 4",
+          "sympy": "Eq(y, -x + 4)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = -x + 4",
+          "sympy": "Eq(y, -x + 4)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222d3",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = 3x - 2",
+      "difficulty_estimate": 0.35,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = 3x - 2",
+          "sympy": "Eq(y, 3*x - 2)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = 3x - 2",
+          "sympy": "Eq(y, 3*x - 2)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222d4",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = \\frac{1}{2}x + 3",
+      "difficulty_estimate": 0.4,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = \\frac{1}{2}x + 3",
+          "sympy": "Eq(y, x/2 + 3)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = \\frac{1}{2}x + 3",
+          "sympy": "Eq(y, x/2 + 3)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-2222222222d5",
+      "node_id": "11111111-1111-1111-1111-111111111112",
+      "statement_latex": "y = -2x",
+      "difficulty_estimate": 0.3,
+      "status": "VERIFIED",
+      "source": "SEEDED",
+      "steps": [
+        {
+          "latex": "y = -2x",
+          "sympy": "Eq(y, -2*x)",
+          "operation": "GIVEN"
+        },
+        {
+          "latex": "y = -2x",
+          "sympy": "Eq(y, -2*x)",
+          "operation": "IDENTIFY_SLOPE_INTERCEPT"
+        }
+      ]
+    }
+  ]
+}
